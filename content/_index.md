@@ -5,4 +5,4 @@ type: docs
 
 #  HalideOS - An Experimental OS from DSC KIIT
 
-bkfsjdfkajsfnkajsdnfkasjnfksajdnfasjkdfnsjkdfn
+DSC is proud to announce its Operating Systems Group.
