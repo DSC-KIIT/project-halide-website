@@ -1,1 +1,0 @@
-# About the Operating Systems Team at DSC KIIT
