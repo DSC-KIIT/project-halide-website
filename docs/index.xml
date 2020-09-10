@@ -43,7 +43,8 @@ Memory Mapped I/O and I/O Ports #  There are usually two different ways to inter
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/4.-Keyboard-Driver/</guid>
-      <description>The Keyboard Driver #  </description>
+      <description>The Keyboard Driver #  The keyboard driver does the task of reading the input coming from the keyboard and writing it to the screen using the FrameBuffer driver. The keyboard driver uses I/O ports mapped to memory addresses 0x64 and 0x60 to read the data coming from the keyboard.
+Every time a key on the keyboard is pressed, 0x64 is set and an 8 bit integer is available in 0x60 which is passed to a massive switch case that appropriately writes the text on the screen.</description>
     </item>
     
     <item>
@@ -59,11 +60,48 @@ All the classes and the functions are encapsulated in the hldstd namespace for c
     
     <item>
       <title></title>
-      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/6.-Whats-Next/</link>
+      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/6.-Windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/6.-Whats-Next/</guid>
-      <description>What&amp;rsquo;s Next for HalideOS #  </description>
+      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/6.-Windows/</guid>
+      <description>Windows in HalideOS #  We have added support to divide the screen into multiple consoles. It is very similar to diving a linux terminal into multiple parts. This was done using a Window class that is passed to the FrameBuffer::Writer so that it can restrict the movement of the cursor in the limits defined in the Windows class.
+ Files: include/windows.h  Its a pretty small class, everything is done in the header file, you can refer the source code to understand what it does.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/7.-Console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/7.-Console/</guid>
+      <description>Console #  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Global-Descriptor-Tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Global-Descriptor-Tables/</guid>
+      <description>Global Descriptor Tables #  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Interrupts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Interrupts/</guid>
+      <description>Interrupts Implementation in HalideOS #  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/System-and-Utilities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/System-and-Utilities/</guid>
+      <description>System and Utilities #  </description>
     </item>
     
     <item>
