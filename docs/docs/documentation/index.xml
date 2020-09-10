@@ -33,7 +33,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/3.-Frame-Buffer/</guid>
-      <description>The Frame Buffer #  </description>
+      <description>The Frame Buffer #  HalideOS uses the APIs provided by the BIOS to display text on the screen. We did not implement drivers for the graphics hardware to keep the code simple. BIOS implements a combination of memory-mapped I/O and I/O ports system to manipulate the screen and display the text.
+Memory Mapped I/O and I/O Ports #  There are usually two different ways to interact with the hardware, memory-mapped I/O and I/O ports.</description>
     </item>
     
     <item>

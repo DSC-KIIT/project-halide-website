@@ -15,6 +15,7 @@ A massive list of all sorts of tutorials, books and videos on operating systems.
 * https://littleosbook.github.io/
 * Operating System Concepts - Galvin and Silberschatz
 * Modern Operating Systems - Andrew Tanenbaum and Herbert Bos
+* Operating Systems: Three Easy Pieces - Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau
 
 ## Videos
 
