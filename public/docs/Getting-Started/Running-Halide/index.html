@@ -4,20 +4,21 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://example.com/categories/" />
-
-<title>Categories | HalideOS</title>
+<meta name="description" content="Running HalideOS on your System #  Dependencies #  It is recommended that you used a Linux based operating system for building HalideOS. The C/C&#43;&#43; development tools and ecosystem are much easier to use on a Linux based system.
+ g&#43;&#43; - a C&#43;&#43; compiler nasm or as - an x86 assembler ld - the GNU Linker make - GNU Make, a build tool for linux qemu - an x86 Emulator git - for version control A text editor of your choice, we use VSCode  You can google up how to install these tools for your host operating system.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Running HalideOS on your System #  Dependencies #  It is recommended that you used a Linux based operating system for building HalideOS. The C/C&#43;&#43; development tools and ecosystem are much easier to use on a Linux based system.
+ g&#43;&#43; - a C&#43;&#43; compiler nasm or as - an x86 assembler ld - the GNU Linker make - GNU Make, a build tool for linux qemu - an x86 Emulator git - for version control A text editor of your choice, we use VSCode  You can google up how to install these tools for your host operating system." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/docs/Getting-Started/Running-Halide/" />
+<meta property="article:modified_time" content="2020-09-10T02:48:53+05:30" />
+<title>Running Halide | HalideOS</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.6cd8553a6854f4812343f0f0c8baca31271e686434f381fbe3c7226f66639176.css" integrity="sha256-bNhVOmhU9IEjQ/DwyLrKMSceaGQ084H748cib2ZjkXY=">
 <script defer src="/en.search.min.914a545168a5e9cd04be623bb68dff85344e2f794e2acc2cebf4de3f932f2e6f.js" integrity="sha256-kUpUUWil6c0EvmI7to3/hTROL3lOKsws6/TeP5MvLm8="></script>
 
 <script defer src="/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js" integrity="sha256-dKi7B/C&#43;6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ="></script>
-<link rel="alternate" type="application/rss+xml" href="https://example.com/categories/index.xml" title="HalideOS" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -116,7 +117,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/docs/Getting-Started/Running-Halide/" class="">Running Halide</a>
+    <a href="/docs/Getting-Started/Running-Halide/" class="active">Running Halide</a>
   
 
         </li>
@@ -263,7 +264,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Categories</strong>
+  <strong>Running Halide</strong>
 
   <label for="toc-control">
     
@@ -276,27 +277,17 @@ https://github.com/alex-shpak/hugo-book
   
   <aside class="hidden clearfix">
     
-  <nav>
+  <nav id="TableOfContents">
   <ul>
-  
-    
-    <li class="book-section-flat">
-      <strong>Categories</strong>
+    <li><a href="#running-halideos-on-your-system">Running HalideOS on your System</a>
       <ul>
-      
+        <li>
+          <ul>
+            <li><a href="#dependencies">Dependencies</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
-    
-  
-    
-    <li class="book-section-flat">
-      <strong>Tags</strong>
-      <ul>
-      
-      </ul>
-    </li>
-    
-  
   </ul>
 </nav>
 
@@ -308,11 +299,28 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  
-
-  
-
-
+  <article class="markdown"><h1 id="running-halideos-on-your-system">
+  Running HalideOS on your System
+  <a class="anchor" href="#running-halideos-on-your-system">#</a>
+</h1>
+<h3 id="dependencies">
+  Dependencies
+  <a class="anchor" href="#dependencies">#</a>
+</h3>
+<p>It is recommended that you used a Linux based operating system for building HalideOS. The C/C++ development
+tools and ecosystem are much easier to use on a Linux based system.</p>
+<ul>
+<li><code>g++</code> - a C++ compiler</li>
+<li><code>nasm</code> or <code>as</code> - an x86 assembler</li>
+<li><code>ld</code> - the GNU Linker</li>
+<li><code>make</code> - GNU Make, a build tool for linux</li>
+<li><code>qemu</code> - an x86 Emulator</li>
+<li><code>git</code> - for version control</li>
+<li>A text editor of your choice, we use <strong>VSCode</strong></li>
+</ul>
+<p>You can google up how to install these tools for your host operating system. On linux based systems you will
+mostly install them using your package manager.</p>
+</article>
  
       
 
@@ -322,7 +330,20 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/089511139a0f0462f6a5ac755ebeb05b719a3324" title='Last modified by Junaid Rahim | September 10, 2020' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>September 10, 2020</span>
+    </a>
+  </div>
 
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/docs/Getting%20Started/Running%20Halide.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
 
 </div>
 
@@ -332,6 +353,10 @@ https://github.com/alex-shpak/hugo-book
 
       
   
+  <div class="book-comments">
+
+</div>
+  
  
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
@@ -340,27 +365,17 @@ https://github.com/alex-shpak/hugo-book
     
     <aside class="book-toc">
       
-  <nav>
+  <nav id="TableOfContents">
   <ul>
-  
-    
-    <li class="book-section-flat">
-      <strong>Categories</strong>
+    <li><a href="#running-halideos-on-your-system">Running HalideOS on your System</a>
       <ul>
-      
+        <li>
+          <ul>
+            <li><a href="#dependencies">Dependencies</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
-    
-  
-    
-    <li class="book-section-flat">
-      <strong>Tags</strong>
-      <ul>
-      
-      </ul>
-    </li>
-    
-  
   </ul>
 </nav>
 
