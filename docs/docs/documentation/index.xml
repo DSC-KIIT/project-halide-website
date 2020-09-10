@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HalideOS</title>
+    <link>https://example.com/docs/documentation/</link>
+    <description>Recent content on HalideOS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://example.com/docs/documentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://example.com/docs/documentation/1.-Introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/documentation/1.-Introduction/</guid>
+      <description>Introduction to the HalideOS Codebase #  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/docs/documentation/2.-Design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/documentation/2.-Design/</guid>
+      <description>Overall Design of HalideOS #  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/docs/documentation/3.-Frame-Buffer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/documentation/3.-Frame-Buffer/</guid>
+      <description>The Frame Buffer #  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/docs/documentation/4.-Keyboard-Driver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/documentation/4.-Keyboard-Driver/</guid>
+      <description>The Keyboard Driver #  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/docs/documentation/5.-Standard-Library/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/documentation/5.-Standard-Library/</guid>
+      <description>The Standard Library #  The standard library of HalideOS is a set of a few abstractions for some common data structures and utility functions that we used to again and again for the kernel as well as the shell programs.
+All the classes and the functions are encapsulated in the hldstd namespace for clarity.
+ Files: include/halidestdlib.h and src/halidestdlib.cpp Namespaces: hldstd, hldstd::math  Classes  hldstd::string hltstd::stack&amp;lt;T&amp;gt;   Functions Refer below for details on return types with accurate namespaces.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/docs/documentation/6.-Whats-Next/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/documentation/6.-Whats-Next/</guid>
+      <description>What&amp;rsquo;s Next for HalideOS #  </description>
+    </item>
+    
+  </channel>
+</rss>

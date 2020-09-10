@@ -3,6 +3,7 @@
 baseURL = 'https://example.com/'
 title = 'HalideOS'
 theme = 'book'
+publishDir = 'docs/'
 
 # Book configuration
 disablePathToLower = true

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Running HalideOS on your System #  Dependencies #  It is recommended that you used a Linux based operating system for building HalideOS. The C/C&#43;&#43; development tools and ecosystem are much easier to use on a Linux based system.
+ g&#43;&#43; - a C&#43;&#43; compiler nasm or as - an x86 assembler ld - the GNU Linker make - GNU Make, a build tool for linux qemu - an x86 Emulator git - for version control A text editor of your choice, we use VSCode  You can google up how to install these tools for your host operating system.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Running HalideOS on your System #  Dependencies #  It is recommended that you used a Linux based operating system for building HalideOS. The C/C&#43;&#43; development tools and ecosystem are much easier to use on a Linux based system.
+ g&#43;&#43; - a C&#43;&#43; compiler nasm or as - an x86 assembler ld - the GNU Linker make - GNU Make, a build tool for linux qemu - an x86 Emulator git - for version control A text editor of your choice, we use VSCode  You can google up how to install these tools for your host operating system." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/docs/Getting-Started/Running-Halide/" />
+<meta property="article:modified_time" content="2020-09-10T02:48:53+05:30" />
+<title>Running Halide | HalideOS</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.6cd8553a6854f4812343f0f0c8baca31271e686434f381fbe3c7226f66639176.css" integrity="sha256-bNhVOmhU9IEjQ/DwyLrKMSceaGQ084H748cib2ZjkXY=">
+<script defer src="/en.search.min.f89cbdcf754f50780f37079244167be0386c581e31aebdf2205da2505312de0b.js" integrity="sha256-&#43;Jy9z3VPUHgPNweSRBZ74DhsWB4xrr3yIF2iUFMS3gs="></script>
+
+<script defer src="/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js" integrity="sha256-dKi7B/C&#43;6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>HalideOS</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <a href="/docs/Getting-Started/" class="">Getting Started</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/Getting-Started/Introduction/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/Getting-Started/Required-Knowledge/" class="">Required Knowledge</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/Getting-Started/Resources-and-Tutorials/" class="">Resources and Tutorials</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/Getting-Started/Running-Halide/" class="active">Running Halide</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>Documentation</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/documentation/1.-Introduction/" class="">1. Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/documentation/2.-Design/" class="">2. Design</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/documentation/3.-Frame-Buffer/" class="">3. Frame Buffer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/documentation/4.-Keyboard-Driver/" class="">4. Keyboard Driver</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/documentation/5.-Standard-Library/" class="">5. Standard Library</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/documentation/6.-Whats-Next/" class="">6. What&#39;s Next</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/" >
+        Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/DSC-KIIT/project-halide" target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Running Halide</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#running-halideos-on-your-system">Running HalideOS on your System</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#dependencies">Dependencies</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="running-halideos-on-your-system">
+  Running HalideOS on your System
+  <a class="anchor" href="#running-halideos-on-your-system">#</a>
+</h1>
+<h3 id="dependencies">
+  Dependencies
+  <a class="anchor" href="#dependencies">#</a>
+</h3>
+<p>It is recommended that you used a Linux based operating system for building HalideOS. The C/C++ development
+tools and ecosystem are much easier to use on a Linux based system.</p>
+<ul>
+<li><code>g++</code> - a C++ compiler</li>
+<li><code>nasm</code> or <code>as</code> - an x86 assembler</li>
+<li><code>ld</code> - the GNU Linker</li>
+<li><code>make</code> - GNU Make, a build tool for linux</li>
+<li><code>qemu</code> - an x86 Emulator</li>
+<li><code>git</code> - for version control</li>
+<li>A text editor of your choice, we use <strong>VSCode</strong></li>
+</ul>
+<p>You can google up how to install these tools for your host operating system. On linux based systems you will
+mostly install them using your package manager.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/089511139a0f0462f6a5ac755ebeb05b719a3324" title='Last modified by Junaid Rahim | September 10, 2020' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>September 10, 2020</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/docs/Getting%20Started/Running%20Halide.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#running-halideos-on-your-system">Running HalideOS on your System</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#dependencies">Dependencies</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
