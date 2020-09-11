@@ -13,33 +13,11 @@
   </url>
   
   <url>
-    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/1.-Introduction/</loc>
-    <lastmod>2020-09-10T02:53:55+05:30</lastmod>
+    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Console/</loc>
   </url>
   
   <url>
-    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/3.-Frame-Buffer/</loc>
-    <lastmod>2020-09-10T17:09:19+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/4.-Keyboard-Driver/</loc>
-    <lastmod>2020-09-10T17:33:19+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/5.-Standard-Library/</loc>
-    <lastmod>2020-09-10T14:05:05+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/6.-Windows/</loc>
-    <lastmod>2020-09-10T17:57:15+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/7.-Console/</loc>
-    <lastmod>2020-09-11T16:18:06+05:30</lastmod>
+    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Frame-Buffer/</loc>
   </url>
   
   <url>
@@ -50,6 +28,18 @@
   <url>
     <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Interrupts/</loc>
     <lastmod>2020-09-10T17:57:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Keyboard-Driver/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Standard-Library/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Windows/</loc>
   </url>
   
   <url>
@@ -83,7 +73,7 @@
   
   <url>
     <loc>https://dsc-kiit.github.io/project-halide-website/docs/</loc>
-    <lastmod>2020-09-11T16:18:06+05:30</lastmod>
+    <lastmod>2020-09-11T08:40:14+05:30</lastmod>
   </url>
   
   <url>

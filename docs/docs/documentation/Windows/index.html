@@ -4,13 +4,15 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Global Descriptor Tables #  ">
+<meta name="description" content="Windows in HalideOS #  We have added support to divide the screen into multiple consoles. It is very similar to diving a linux terminal into multiple parts. This was done using a Window class that is passed to the FrameBuffer::Writer so that it can restrict the movement of the cursor in the limits defined in the Windows class.
+ Files: include/windows.h  Its a pretty small class, everything is done in the header file, you can refer the source code to understand what it does.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
-<meta property="og:description" content="Global Descriptor Tables #  " />
+<meta property="og:description" content="Windows in HalideOS #  We have added support to divide the screen into multiple consoles. It is very similar to diving a linux terminal into multiple parts. This was done using a Window class that is passed to the FrameBuffer::Writer so that it can restrict the movement of the cursor in the limits defined in the Windows class.
+ Files: include/windows.h  Its a pretty small class, everything is done in the header file, you can refer the source code to understand what it does." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://dsc-kiit.github.io/project-halide-website/docs/documentation/Global-Descriptor-Tables/" />
-<meta property="article:modified_time" content="2020-09-10T17:57:15+05:30" />
-<title>Global Descriptor Tables | HalideOS</title>
+<meta property="og:url" content="https://dsc-kiit.github.io/project-halide-website/docs/documentation/Windows/" />
+
+<title>Windows | HalideOS</title>
 <link rel="manifest" href="/project-halide-website/manifest.json">
 <link rel="icon" href="/project-halide-website/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/project-halide-website/book.min.6cd8553a6854f4812343f0f0c8baca31271e686434f381fbe3c7226f66639176.css" integrity="sha256-bNhVOmhU9IEjQ/DwyLrKMSceaGQ084H748cib2ZjkXY=">
@@ -166,7 +168,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/project-halide-website/docs/documentation/Global-Descriptor-Tables/" class="active">Global Descriptor Tables</a>
+    <a href="/project-halide-website/docs/documentation/Global-Descriptor-Tables/" class="">Global Descriptor Tables</a>
   
 
         </li>
@@ -206,7 +208,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/project-halide-website/docs/documentation/Windows/" class="">Windows</a>
+    <a href="/project-halide-website/docs/documentation/Windows/" class="active">Windows</a>
   
 
         </li>
@@ -272,7 +274,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/project-halide-website/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Global Descriptor Tables</strong>
+  <strong>Windows</strong>
 
   <label for="toc-control">
     
@@ -287,7 +289,7 @@ https://github.com/alex-shpak/hugo-book
     
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#global-descriptor-tables">Global Descriptor Tables</a></li>
+    <li><a href="#windows-in-halideos">Windows in HalideOS</a></li>
   </ul>
 </nav>
 
@@ -299,10 +301,15 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="global-descriptor-tables">
-  Global Descriptor Tables
-  <a class="anchor" href="#global-descriptor-tables">#</a>
+  <article class="markdown"><h1 id="windows-in-halideos">
+  Windows in HalideOS
+  <a class="anchor" href="#windows-in-halideos">#</a>
 </h1>
+<p>We have added support to divide the screen into multiple consoles. It is very similar to diving a linux terminal into multiple parts. This was done using a <code>Window</code> class that is passed to the <code>FrameBuffer::Writer</code> so that it can restrict the movement of the cursor in the limits defined in the <code>Windows</code> class.</p>
+<ul>
+<li>Files: <code>include/windows.h</code></li>
+</ul>
+<p>Its a pretty small class, everything is done in the header file, you can refer the source code to understand what it does.</p>
 </article>
  
       
@@ -313,16 +320,10 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/eb9ac17ffb27750051b9a67665f4d4fa9715c35d" title='Last modified by Junaid Rahim | September 10, 2020' target="_blank" rel="noopener">
-      <img src="/project-halide-website/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>September 10, 2020</span>
-    </a>
-  </div>
-
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/docs/documentation/Global%20Descriptor%20Tables.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/docs/documentation/Windows.md" target="_blank" rel="noopener">
       <img src="/project-halide-website/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>
@@ -350,7 +351,7 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#global-descriptor-tables">Global Descriptor Tables</a></li>
+    <li><a href="#windows-in-halideos">Windows in HalideOS</a></li>
   </ul>
 </nav>
 
