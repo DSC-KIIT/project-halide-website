@@ -1,6 +1,6 @@
 # Introduction to Operating Systems Development
 
-<center><h2>Please proceed with a <b>really good</b> grasp of either C or C++</h2></center>
+<center><h3>Please proceed with a <b>really good</b> grasp of C/C++</h3></center>
 
 If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, Operating System Developement. There are no proper roadmaps, no copy-paste code and lots of theory. You'll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev.
 

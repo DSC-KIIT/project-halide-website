@@ -10,9 +10,10 @@ bookFlatSection: true
 **HalideOS** is an experimental operating system, written from scratch by the OS team at DSC KIIT. The main motive of this
 project was to build a basic yet functional operating system from scratch and demonstrate some of the basics of OS theory. 
 
+If you're new to OS development then please refer the **Getting Started** section of this website.
+
 This part of the website contains technical documentation for some of the important components of HalideOS, the content here 
 will act as an aid to help you understand the source code. HalideOS is written in C++17 with some x86 assembly code for the boot procedure and interrupts.
-
 
 The diagram below represents all the components that come together to make HalideOS work. The best way to understand how Halide does what it does is to read through the source code and keep these docs handy.
 
