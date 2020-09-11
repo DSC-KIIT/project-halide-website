@@ -4,17 +4,17 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Introduction to Operating Systems Development #  ">
+<meta name="description" content="Introduction to Operating Systems Development #  Please proceed with a really good grasp of either C or C&#43;&#43; If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, Operating System Developement. There are no proper roadmaps, no copy-paste code and lots of theory. You&rsquo;ll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
-<meta property="og:description" content="Introduction to Operating Systems Development #  " />
+<meta property="og:description" content="Introduction to Operating Systems Development #  Please proceed with a really good grasp of either C or C&#43;&#43; If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, Operating System Developement. There are no proper roadmaps, no copy-paste code and lots of theory. You&rsquo;ll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://dsc-kiit.github.io/project-halide-website/docs/Getting-Started/Introduction/" />
-<meta property="article:modified_time" content="2020-09-10T02:48:53+05:30" />
+<meta property="article:modified_time" content="2020-09-11T08:40:14+05:30" />
 <title>Introduction | HalideOS</title>
 <link rel="manifest" href="/project-halide-website/manifest.json">
 <link rel="icon" href="/project-halide-website/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/project-halide-website/book.min.6cd8553a6854f4812343f0f0c8baca31271e686434f381fbe3c7226f66639176.css" integrity="sha256-bNhVOmhU9IEjQ/DwyLrKMSceaGQ084H748cib2ZjkXY=">
-<script defer src="/project-halide-website/en.search.min.5c3713b59ddcbf7e57f4a113da8d1045e6c90c872771fa8e07eef7998b23aa12.js" integrity="sha256-XDcTtZ3cv35X9KET2o0QRebJDIcncfqOB&#43;73mYsjqhI="></script>
+<script defer src="/project-halide-website/en.search.min.ead736965f3cdde0b2df67184ff3a053ffe7f4a062308a4db92060edc9a1077a.js" integrity="sha256-6tc2ll883eCy32cYT/OgU//n9KBiMIpNuSBg7cmhB3o="></script>
 
 <script defer src="/project-halide-website/sw.min.910ccf2ae2e1cf345f391a2f1856d6781c6b69513db4e23acb738e62f52b5f96.js" integrity="sha256-kQzPKuLhzzRfORovGFbWeBxraVE9tOI6y3OOYvUrX5Y="></script>
 <!--
@@ -317,7 +317,19 @@ https://github.com/alex-shpak/hugo-book
     
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction-to-operating-systems-development">Introduction to Operating Systems Development</a></li>
+    <li><a href="#introduction-to-operating-systems-development">Introduction to Operating Systems Development</a>
+      <ul>
+        <li><a href="#contents--">Contents -</a>
+          <ul>
+            <li><a href="#motivation">Motivation</a></li>
+            <li><a href="#rules-and-goals">Rules and Goals</a></li>
+            <li><a href="#basic-definitions">Basic Definitions</a></li>
+            <li><a href="#essential-tools">Essential tools</a></li>
+            <li><a href="#choose-your-development-environment">Choose your Development Environment</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -333,6 +345,69 @@ https://github.com/alex-shpak/hugo-book
   Introduction to Operating Systems Development
   <a class="anchor" href="#introduction-to-operating-systems-development">#</a>
 </h1>
+<center><h2>Please proceed with a <b>really good</b> grasp of either C or C++</h2></center>
+<p>If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, Operating System Developement. There are no proper roadmaps, no copy-paste code and lots of theory. You&rsquo;ll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev.</p>
+<p>You need to be able to undertand how hardware works, read and write assembly code to boot up your kernel and fairly good C/C++ code to add other features. It will require time, patience and careful code designs filled with abstractions.</p>
+<p>If the prerequisites sound overwhelming, maybe this is not the right time for you to get into OS Dev. It&rsquo;s not a week long project that you can just be done with. It may takes months of work to take care of every possible test case for one typo, one loophole, will be enough to break your system. in short, this is an ongoing process.</p>
+<p>Finally, this is not the guide to make the next Linux or Windows. This is a beginners guide based on our mistakes and learnings as we proceeded to make the experimental <strong>Halide OS</strong>.</p>
+<h2 id="contents--">
+  Contents -
+  <a class="anchor" href="#contents--">#</a>
+</h2>
+<ol>
+<li>Motivation</li>
+<li>Rules and Goals</li>
+<li>Basic Definitions</li>
+<li>Essential Tools</li>
+<li>Choose your Development Environment</li>
+</ol>
+<h3 id="motivation">
+  Motivation
+  <a class="anchor" href="#motivation">#</a>
+</h3>
+<h3 id="rules-and-goals">
+  Rules and Goals
+  <a class="anchor" href="#rules-and-goals">#</a>
+</h3>
+<p>It is not okay to write average code thinking that the computer will take care of it
+Have a plan. What exactly do you want your system to do? Reach for the stars and maybe you&rsquo;ll land on the moon.</p>
+<h3 id="basic-definitions">
+  Basic Definitions
+  <a class="anchor" href="#basic-definitions">#</a>
+</h3>
+<ul>
+<li>
+<p>Operating System -</p>
+</li>
+<li>
+<p>Kernel -</p>
+</li>
+<li>
+<p>Shell -</p>
+</li>
+<li>
+<p>GUI -</p>
+</li>
+<li>
+<p>Emulator -</p>
+</li>
+</ul>
+<h3 id="essential-tools">
+  Essential tools
+  <a class="anchor" href="#essential-tools">#</a>
+</h3>
+<h3 id="choose-your-development-environment">
+  Choose your Development Environment
+  <a class="anchor" href="#choose-your-development-environment">#</a>
+</h3>
+<ul>
+<li>
+<p>GNU/Linux</p>
+</li>
+<li>
+<p>Windows</p>
+</li>
+</ul>
 </article>
  
       
@@ -343,9 +418,9 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/089511139a0f0462f6a5ac755ebeb05b719a3324" title='Last modified by Junaid Rahim | September 10, 2020' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/7fff61bdaaba147bbb932e389339e908cdefd4f1" title='Last modified by Priyansi | September 11, 2020' target="_blank" rel="noopener">
       <img src="/project-halide-website/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>September 10, 2020</span>
+      <span>September 11, 2020</span>
     </a>
   </div>
 
@@ -380,7 +455,19 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction-to-operating-systems-development">Introduction to Operating Systems Development</a></li>
+    <li><a href="#introduction-to-operating-systems-development">Introduction to Operating Systems Development</a>
+      <ul>
+        <li><a href="#contents--">Contents -</a>
+          <ul>
+            <li><a href="#motivation">Motivation</a></li>
+            <li><a href="#rules-and-goals">Rules and Goals</a></li>
+            <li><a href="#basic-definitions">Basic Definitions</a></li>
+            <li><a href="#essential-tools">Essential tools</a></li>
+            <li><a href="#choose-your-development-environment">Choose your Development Environment</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
   </ul>
 </nav>
 

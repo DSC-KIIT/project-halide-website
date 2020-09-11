@@ -74,7 +74,9 @@ All the classes and the functions are encapsulated in the hldstd namespace for c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/7.-Console/</guid>
-      <description>Console #  </description>
+      <description>Console Commands in HalideOS #  The console in Halide is pretty simple. Just a while loop that evaluates the the commands entered by the user using a big nested if else, and then defers execution of the command to the proper functions.
+ Files: include/console.h and src/console.cpp  The console supports the following commands
+ about help greet calculator - A basic command line calculator clear switch console - Switches to the next console  Refer the src/console.</description>
     </item>
     
     <item>
@@ -110,7 +112,7 @@ All the classes and the functions are encapsulated in the hldstd namespace for c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsc-kiit.github.io/project-halide-website/docs/Getting-Started/Introduction/</guid>
-      <description>Introduction to Operating Systems Development #  </description>
+      <description>Introduction to Operating Systems Development #  Please proceed with a really good grasp of either C or C++ If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, Operating System Developement. There are no proper roadmaps, no copy-paste code and lots of theory. You&amp;rsquo;ll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev.</description>
     </item>
     
     <item>
@@ -119,7 +121,13 @@ All the classes and the functions are encapsulated in the hldstd namespace for c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsc-kiit.github.io/project-halide-website/docs/Getting-Started/Required-Knowledge/</guid>
-      <description>Required Knowledge #  </description>
+      <description>Required Knowledge #    Basic Computer Programming
+  Microprocessor architechture
+  Assembly
+  Memory
+  UNIX/ Linux Experience
+  Version Control
+  </description>
     </item>
     
     <item>
@@ -139,7 +147,7 @@ Web #   https://wiki.osdev.org/ http://www.lowlevel.eu/wiki/Hauptseite https://g
       
       <guid>https://dsc-kiit.github.io/project-halide-website/docs/Getting-Started/Running-Halide/</guid>
       <description>Running HalideOS on your System #  Dependencies #  It is recommended that you used a Linux based operating system for building HalideOS. The C/C++ development tools and ecosystem are much easier to use on a Linux based system.
- g++ - a C++ compiler nasm or as - an x86 assembler ld - the GNU Linker make - GNU Make, a build tool for linux qemu - an x86 Emulator git - for version control A text editor of your choice, we use VSCode  You can google up how to install these tools for your host operating system.</description>
+ g++ - A C++ compiler nasm or as - An x86 assembler ld - The GNU Linker make - GNU Make, a build tool for linux qemu - An x86 Emulator git - For version control A text editor of your choice, we use Visual Studio Code  You can google up how to install these tools for your host operating system.</description>
     </item>
     
   </channel>
