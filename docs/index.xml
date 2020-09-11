@@ -15,16 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/1.-Introduction/</guid>
-      <description>Introduction to the HalideOS Codebase #  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/2.-Design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/2.-Design/</guid>
-      <description>Overall Design of HalideOS #  </description>
+      <description>HalideOS - Technical Documentation #   </description>
     </item>
     
     <item>
@@ -95,15 +86,6 @@ All the classes and the functions are encapsulated in the hldstd namespace for c
       
       <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Interrupts/</guid>
       <description>Interrupts Implementation in HalideOS #  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/System-and-Utilities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/System-and-Utilities/</guid>
-      <description>System and Utilities #  </description>
     </item>
     
     <item>
