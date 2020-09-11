@@ -49,4 +49,8 @@ KIIT students who want to learn more about this domain can reach out to us or th
 Twitter or Instagram.
 
 
-A project by [**Ujjwal Singh Shekhawat**](https://twitter.com/UjjwalSinghShe2) and [**Junaid Rahim**](https://twitter.com/junaidrahim31)
+## About the Creators
+
+This project was developed by [**Ujjwal Singh Shekhawat**](https://twitter.com/UjjwalSinghShe2) and [**Junaid Rahim**](https://twitter.com/junaidrahim31). Both of them are second year students in the CSE Branch and members of the Web Team here at DSC KIIT.
+
+Special thanks to [Priyansi](https://twitter.com/iiverveii) from the content team for helping out with this site and the documentation.
