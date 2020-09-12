@@ -4,9 +4,9 @@
 
 If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, Operating System Developement. There are no proper roadmaps, no copy-paste code and lots of theory. You'll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev.
 
-You need to be able to undertand how hardware works, read and write assembly code to boot up your kernel and fairly good C/C++ code to add other features. It will require time, patience and careful code designs filled with abstractions.
+You need to be able to understand how hardware works, read and write assembly code to boot up your kernel and fairly good C/C++ code to add other features. It will require time, patience and careful code designs filled with abstractions.
 
-If the prerequisites sound overwhelming, maybe this is not the right time for you to get into OS Dev. It's not a week long project that you can just be done with. It may takes months of work to take care of every possible test case for one typo, one loophole, will be enough to break your system. in short, this is an ongoing process.
+If the prerequisites sound overwhelming, maybe this is not the right time for you to get into OS Dev. It's not a week-long project that you can just be done with. It may takes months of work to take care of every possible test case for one typo, one loophole, will be enough to break your system. in short, this is an ongoing process.
 
 Finally, this is not the guide to make the next Linux or Windows. This is a beginners guide based on our mistakes and learnings as we proceeded to make the experimental **Halide OS**.
 
@@ -20,6 +20,10 @@ Finally, this is not the guide to make the next Linux or Windows. This is a begi
 
 ### Motivation
 
+When you write a program and it runs too slow, but you see nothing wrong with your code, where else will you look for a solution. How will you be able to debug the problem if you don’t know how the operating system works? Are you accessing too many files? Running out of memory and swap is in high usage? But you don’t even know what swap is! Or is I/O blocking?
+
+While the extend and depth of knowledge can be questioned, knowing more than the fundamentals can be critical to how well your program runs and even its structure and flow.
+
 ### Rules and Goals
 
 It is not okay to write average code thinking that the computer will take care of it
@@ -27,20 +31,40 @@ Have a plan. What exactly do you want your system to do? Reach for the stars and
 
 ### Basic Definitions
 
-- Operating System -
+#### [Operating System](https://en.wikipedia.org/wiki/Operating_system)
 
-- Kernel -
+In the Kingdom of Hardware, the national language is machine code comprising of 0's/1's, on's/off's etc. But since it was useless on its own, it was merged with the Kingdom of Software where everyone spoke various low to high-level languages. This led to mass confusion as the Hardware residents couldn't understand Software residents and vice-versa. To solve this problem, a translator called Operating System was called.
 
-- Shell -
+An Operating System is a framework that tells your computer how to use its hardware. Specifically, it hides hardware complexity, manages memory and other system resources, schedules and multiplexes processes and threads, provides a basic user interface and application programmer interface, also focussing on isolation and protection. Not every Operating System in the market provides all these functionalities. Therefore you have to be clear with your goals.
 
-- GUI -
+Some popular examples include [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows) which has a huge user base, [Linux](https://en.wikipedia.org/wiki/Linux) which is lightweight because of small, specific components ([distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)) making it highly customizable but less user-friendly and the [BSD triplets](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) for server related tasks.
 
-- Emulator -
+#### [Kernel](<https://en.wikipedia.org/wiki/Kernel_(operating_system)>)
+
+> The kernel is like a traffic cop. It stands between your computer's hardware and the applications that you want to run. It allocates memory, keeps track of file systems on your disk drives, and it divides up time so that each program gets its turn to use your computer's resources.
+
+Operating systems are mostly about drivers. That's more than 90% of a kernel. So a kernel is the core of an OS that is invisible and the only time you'll see it is when it [panics](https://en.wikipedia.org/wiki/Kernel_panic), calls in backup and arrests everyone in case there's a crime going on.
+
+#### [Shell](<https://en.wikipedia.org/wiki/Shell_(computing)>)
+
+A shell is a program which acts as an interface between humans and the kernel. Since we cannot talk to this program directly, we can use commands (command line) or a mouse (file explorer) to perform basic tasks like starting a program, managing files, etc. But where do we write these commands? That's where the [Terminal](https://en.wikipedia.org/wiki/Computer_terminal#:~:text=A%20computer%20terminal%20is%20an,a%20computer%20screen%20by%20decades.) comes in which tells the shell what to do.
+
+#### [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
+
+A Graphical User Interface is the visible part of an Operating System that helps you modify the features of your Operating System. It does that via graphics as opposed to textual interfaces like the [Terminal](https://en.wikipedia.org/wiki/Computer_terminal#:~:text=A%20computer%20terminal%20is%20an,a%20computer%20screen%20by%20decades.). A GUI simply redraws parts of the screen depending on the user input solving the blank screen problem found in early Operating Systems. This provides a better user interface.
+
+#### [Emulation](https://en.wikipedia.org/wiki/Emulator) and [Virtualization](https://en.wikipedia.org/wiki/Virtualization)
+
+Virtualization is like moving into a house that already has basic utilities like plumbing electricity, etc whereas Emulation is where you're basically building a house from scratch.
+
+The purpose of an Emulator is to accurately reproduce the behavior of some hardware so as to seek independence from the hardware of the host machine. We want to do this for testing purposes since the primary goal of an Operating System is to be hardware-independent.
+
+While emulated environments require a software bridge to interact with the hardware, Virtualizers access hardware directly. However, despite being the faster option, virtualization is limited to running software that was already capable of running on the underlying hardware.
 
 ### Essential tools
 
 ### Choose your Development Environment
 
-- GNU/Linux
+#### GNU/Linux
 
-- Windows
+#### Windows
