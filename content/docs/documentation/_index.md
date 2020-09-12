@@ -19,7 +19,7 @@ The diagram below represents all the components that come together to make Halid
 
 <br>
 
-![Main Diagram](/project-halide-website/diagram.png)
+![Main Diagram](/project-halide/diagram.png)
 
 <br>
 
