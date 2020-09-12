@@ -17,7 +17,7 @@ This part of the website contains technical documentation for some of the import
 <link rel="manifest" href="/project-halide-website/manifest.json">
 <link rel="icon" href="/project-halide-website/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/project-halide-website/book.min.6cd8553a6854f4812343f0f0c8baca31271e686434f381fbe3c7226f66639176.css" integrity="sha256-bNhVOmhU9IEjQ/DwyLrKMSceaGQ084H748cib2ZjkXY=">
-<script defer src="/project-halide-website/en.search.min.2a4a178dd92751ae3c9ba2d875e0c3b438f412ba734424938d2c2d821fbcac1a.js" integrity="sha256-KkoXjdknUa48m6LYdeDDtDj0ErpzRCSTjSwtgh&#43;8rBo="></script>
+<script defer src="/project-halide-website/en.search.min.9b50936dc03b55961d260444d4190c577f94d7dcce26e8be661c140782a66ed8.js" integrity="sha256-m1CTbcA7VZYdJgRE1BkMV3&#43;U19zOJui&#43;ZhwUB4Kmbtg="></script>
 
 <script defer src="/project-halide-website/sw.min.910ccf2ae2e1cf345f391a2f1856d6781c6b69513db4e23acb738e62f52b5f96.js" integrity="sha256-kQzPKuLhzzRfORovGFbWeBxraVE9tOI6y3OOYvUrX5Y="></script>
 <link rel="alternate" type="application/rss+xml" href="https://dsc-kiit.github.io/project-halide-website/docs/documentation/index.xml" title="HalideOS" />
@@ -161,26 +161,6 @@ https://github.com/alex-shpak/hugo-book
           
   
     <a href="/project-halide-website/docs/documentation/Frame-Buffer/" class="">Frame Buffer</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/project-halide-website/docs/documentation/Global-Descriptor-Tables/" class="">Global Descriptor Tables</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/project-halide-website/docs/documentation/Interrupts/" class="">Interrupts</a>
   
 
         </li>
@@ -348,12 +328,13 @@ After the bootloader transfers control to our OS, we setup the stack so that our
 </h2>
 <p>Implemented in <code>include/globaldescriptortable.h </code>  and <code>src/globaldescriptortable.cpp</code></p>
 <p>These files contain the standard boilerplate code to setup memory segmentation using the Global Descriptor Table. This is explained in more detail in 
-  <a href="/project-halide-website/docs/documentation/Global-Descriptor-Tables/">here</a></p>
+  <a href="https://littleosbook.github.io/#segmentation">here</a></p>
 <h2 id="interrupt-descriptor-table">
   Interrupt Descriptor Table
   <a class="anchor" href="#interrupt-descriptor-table">#</a>
 </h2>
-<p>Implemented in <code>src/interrupts.h</code> and <code>src/interrupts.cpp</code></p>
+<p>Implemented in <code>src/interrupts.h</code> and <code>src/interrupts.cpp</code>. You can read up more about how interrupts work in x86 processors 
+  <a href="https://littleosbook.github.io/#interrupts-and-input">here</a></p>
 <h2 id="framebuffer-and-window">
   FrameBuffer and Window
   <a class="anchor" href="#framebuffer-and-window">#</a>

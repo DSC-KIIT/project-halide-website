@@ -41,12 +41,12 @@ As Halide is a pretty simple OS, all the components comes together in the kernel
 
 Implemented in `include/globaldescriptortable.h `  and `src/globaldescriptortable.cpp`
 
-These files contain the standard boilerplate code to setup memory segmentation using the Global Descriptor Table. This is explained in more detail in [here](./Global%20Descriptor%20Tables.md)
+These files contain the standard boilerplate code to setup memory segmentation using the Global Descriptor Table. This is explained in more detail in [here](https://littleosbook.github.io/#segmentation)
 
 
 ## Interrupt Descriptor Table
 
-Implemented in `src/interrupts.h` and `src/interrupts.cpp`
+Implemented in `src/interrupts.h` and `src/interrupts.cpp`. You can read up more about how interrupts work in x86 processors [here](https://littleosbook.github.io/#interrupts-and-input)
 
 
 ## FrameBuffer and Window

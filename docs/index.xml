@@ -32,24 +32,6 @@ Memory Mapped I/O and I/O Ports #  There are usually two different ways to inter
     
     <item>
       <title></title>
-      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Global-Descriptor-Tables/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Global-Descriptor-Tables/</guid>
-      <description>Global Descriptor Tables #  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Interrupts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Interrupts/</guid>
-      <description>Interrupts Implementation in HalideOS #  </description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://dsc-kiit.github.io/project-halide-website/docs/documentation/Keyboard-Driver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
