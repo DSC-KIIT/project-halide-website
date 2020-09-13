@@ -9,7 +9,7 @@ DSC KIIT is thrilled to open source **HalideOS**, our first experimental operati
 from scratch.
 
 - You can find the source code at [github.com/DSC-KIIT/project-halide](https://github.com/DSC-KIIT/project-halide)
-- Build and Install instructions are available [here](/project-halide/docs/Getting-Started/Running-Halide/)
+- Instructions on how to run/build HalideOS are available [here](/project-halide/docs/Getting-Started/Running-Halide/)
 
 ## About HalideOS
 
