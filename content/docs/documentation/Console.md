@@ -18,5 +18,4 @@ Refer the `src/console.cpp` file to look at the implementation of these commands
 print text on the framebuffer.
 
 The `calculator` is the only command that does some work, it evaluates the passed expression and returns the results.
-We implemented a standard infix to postfix converter and evaluated that postfix expression. The calculator is the reason
-we implemented a stack abstraction in the standard library.
+We implemented a standard infix to postfix converter and evaluated that postfix expression. The calculator is the reason we implemented a stack abstraction in the standard library.
