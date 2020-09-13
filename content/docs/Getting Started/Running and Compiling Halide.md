@@ -106,5 +106,7 @@ make run
 
 This will compile and build `kernel.iso` in the `src/` directory and start it in `qemu`. 
 
-You can try `make help` to get a list of all the commands available for various stages of compilation.
+You can run `make help` to get a list of all the commands available for various stages of compilation.
+
+Please refer to the **Documentation** section of the website for more details on the design and the code.
 

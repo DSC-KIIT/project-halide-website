@@ -9,7 +9,7 @@ DSC KIIT is thrilled to open source **HalideOS**, our first experimental operati
 from scratch.
 
 - You can find the source code at [github.com/DSC-KIIT/project-halide](https://github.com/DSC-KIIT/project-halide)
-- Instructions on how to run/build HalideOS are available [here](/project-halide/docs/Getting-Started/Running-Halide/)
+- Instructions on how to run/build HalideOS are available [here](./docs/Getting%20Started/Running%20and%20Compiling%20Halide.md)
 
 ## About HalideOS
 
@@ -25,6 +25,18 @@ that developers can use to add commands to the shell.
 ### Screenshots
 
 Please refer the **Getting Started** and **Documentation** sections of the site to read more about the design and the code.
+
+<div align="center">
+	<img width="80%" src="https://cdn.githubraw.com/DSC-KIIT/project-halide/b06ca381/img/home.png">	
+</div>
+
+
+<div align="center">
+	<img width="80%" src="https://cdn.githubraw.com/DSC-KIIT/project-halide/master/img/console.png">	
+</div>
+
+
+
 
 ## Operating Systems Development
 
@@ -48,6 +60,6 @@ Twitter or Instagram.
 
 ## About the Creators
 
-This project was developed by [**Ujjwal Singh Shekhawat**](https://twitter.com/UjjwalSinghShe2) and [**Junaid Rahim**](https://twitter.com/junaidrahim31). Both of them are second-year students in the CSE Branch and members of the Web Team here at DSC KIIT.
+This project was developed by [**Ujjwal Singh Shekhawat**](https://twitter.com/UjjwalSinghShe2) and [**Junaid Rahim**](https://twitter.com/junaidrahim31). Both of them are second-year students in the CSE Branch and members of the OS Team here at DSC KIIT.
 
 Special thanks to [Priyansi](https://twitter.com/iiverveii) from the Content Team for helping out with this site and the documentation.
