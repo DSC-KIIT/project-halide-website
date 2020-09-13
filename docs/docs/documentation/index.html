@@ -17,7 +17,7 @@ This part of the website contains technical documentation for some of the import
 <link rel="manifest" href="/project-halide/manifest.json">
 <link rel="icon" href="/project-halide/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/project-halide/book.min.6cd8553a6854f4812343f0f0c8baca31271e686434f381fbe3c7226f66639176.css" integrity="sha256-bNhVOmhU9IEjQ/DwyLrKMSceaGQ084H748cib2ZjkXY=">
-<script defer src="/project-halide/en.search.min.3d18964111b588d761c29bfb6f1083e96bd19c30aa8fb21b54e197e61bdad329.js" integrity="sha256-PRiWQRG1iNdhwpv7bxCD6WvRnDCqj7IbVOGX5hva0yk="></script>
+<script defer src="/project-halide/en.search.min.4c15b4b495d7247ad7aa6abe512e7f49c5d354c36f035f92b6ffbe0ed3c99179.js" integrity="sha256-TBW0tJXXJHrXqmq&#43;US5/ScXTVMNvA1&#43;Stv&#43;&#43;DtPJkXk="></script>
 
 <script defer src="/project-halide/sw.min.028c4e56db1c4bcf04be41ef517f7c2f0f1ef9fc2d51a55e745e8f47573a22dd.js" integrity="sha256-AoxOVtscS88EvkHvUX98Lw8e&#43;fwtUaVedF6PR1c6It0="></script>
 <link rel="alternate" type="application/rss+xml" href="https://dsc-kiit.github.io/project-halide/docs/documentation/index.xml" title="HalideOS" />
@@ -302,7 +302,7 @@ https://github.com/alex-shpak/hugo-book
 <p><strong>HalideOS</strong> is an experimental operating system, written from scratch by the OS team at DSC KIIT. The main motive of this
 project was to build a basic yet functional operating system from scratch and demonstrate some of the basics of OS theory.</p>
 <p>If you&rsquo;re new to OS development then please refer the <strong>Getting Started</strong> section of this website.</p>
-<p>This part of the website contains technical documentation for some of the important components of HalideOS, the content here
+<p>This part of the website contains technical documentation for some of the important components of HalideOS, the content here 
 will act as an aid to help you understand the source code. HalideOS is written in C++17 with some x86 assembly code for the boot procedure and interrupts.</p>
 <p>The diagram below represents all the components that come together to make HalideOS work. The best way to understand how Halide does what it does is to read through the source code and keep these docs handy.</p>
 <br>
@@ -313,7 +313,7 @@ will act as an aid to help you understand the source code. HalideOS is written i
   Boot Up
   <a class="anchor" href="#boot-up">#</a>
 </h2>
-<p>The boot procedure is implemented in the <code>src/loader.s</code> file. We used the multiboot specification to boot using the GRUB bootloader.
+<p>The boot procedure is implemented in the <code>src/loader.s</code> file. We used the multiboot specification to boot using the GRUB bootloader. 
 After the bootloader transfers control to our OS, we setup the stack so that our C++ code has memory to run on.</p>
 <p>After this, the <code>k_main</code> function is called which is the entry point for the kernel.</p>
 <h2 id="kernel">
@@ -348,7 +348,7 @@ After the bootloader transfers control to our OS, we setup the stack so that our
   <a class="anchor" href="#console">#</a>
 </h2>
 <p>Implemented in <code>include/console.h</code> and <code>src/console.cpp</code></p>
-<p>This part of the code enables the user to type in commands in the console and get the results. A detailed explaination of the
+<p>This part of the code enables the user to type in commands in the console and get the results. A detailed explaination of the 
 console is given 
   <a href="/project-halide/docs/documentation/Console/">here</a></p>
 <h2 id="halide-standard-library">
@@ -369,7 +369,7 @@ console is given
 
 
 
-  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/c56cedab5a06c8f8aa1c853f5829cc46558d28a5" title='Last modified by Junaid Rahim | September 13, 2020' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/ba84810199f57b9a103f22aa0b26131b2a66d882" title='Last modified by Junaid Rahim | September 13, 2020' target="_blank" rel="noopener">
       <img src="/project-halide/svg/calendar.svg" class="book-icon" alt="Calendar" />
       <span>September 13, 2020</span>
     </a>

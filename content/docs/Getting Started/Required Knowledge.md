@@ -14,7 +14,7 @@
 
 - **Version Control** - Writing OS code is tough and there are going to be so many iterations to your code that it'll be hard to keep track of what change happened when and what works. You are just one typo away from system crash. Infact, Linus Torvalds built Git for the exact same reason while working on Linux. Therefore knowledge of version control is important and always has been.
 
-- **The Concepts** - You need to dive deeper into how Operating Systems work before trying to build one. This going to require through knowledge of microprocessor architecture, registers, compiler development, etc.
+- **The Concepts** - You need to dive deeper into how Operating Systems work before trying to build one. This going to require through knowledge of CPU architecture, compiler development, etc.
 
 - **Ability to Read the Manual** - Get ready to read a whole lot of documentation because no one has the time to answer already answered questions.
 
