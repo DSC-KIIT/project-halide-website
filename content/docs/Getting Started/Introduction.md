@@ -6,7 +6,7 @@ If you landed here then, congratulations! You are about to take on one of the mo
 
 You need to be able to understand how hardware works, read and write assembly code to boot up your kernel and fairly good C/C++ code to add other features. It will require time, patience and careful code designs filled with abstractions.
 
-If the prerequisites sound overwhelming, maybe this is not the right time for you to get into OS Dev. It's not a week-long project that you can just be done with. It may takes months of work to take care of every possible test case for one typo, one loophole, will be enough to break your system. in short, this is an ongoing process.
+If the prerequisites sound overwhelming, maybe this is not the right time for you to get into OS Dev. It's not a week-long project that you can just be done with. It may takes months of work to take care of every possible test case for one typo, one loophole, will be enough to break your system. In short, this is an ongoing process.
 
 Finally, this is not the guide to make the next Linux or Windows. This is a beginners guide based on our mistakes and learnings as we proceeded to make the experimental **Halide OS**.
 

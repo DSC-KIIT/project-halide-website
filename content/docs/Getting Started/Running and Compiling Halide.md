@@ -109,4 +109,4 @@ This will compile and build `kernel.iso` in the `src/` directory and start it in
 
 You can run `make help` to get a list of all the commands available for various stages of compilation.
 
-Please refer to the [Documentation](../../documentation/_index.md) section of the website for more details on the design and the code.
+Please refer to the [Documentation](../../documentation) section of the website for more details on the design and the code.
