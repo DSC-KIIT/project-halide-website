@@ -12,7 +12,7 @@ Documentation for [HalideOS](https://github.com/DSC-KIIT/project-halide) by [DSC
 
 ### License
 
-Copyright (c) **DSC KIIT**. All rights reserved. Licensed under the **MIT License**. All
+Copyright (c) **DSC KIIT**. All rights reserved. Licensed under the **MIT License**.
 
-<img src="https://forthebadge.com/images/badges/built-with-love.svg">
-<img src="https://forthebadge.com/images/badges/made-with-markdown.svg">
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)](https://forthebadge.com)
