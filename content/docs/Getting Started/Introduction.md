@@ -2,7 +2,7 @@
 
 <center><h3>Please proceed with a <b>really good</b> grasp of C/C++</h3></center>
 
-If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, Operating System Developement. There are no proper roadmaps, no copy-paste code and lots of theory. You'll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev.
+If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, developing an Operating System. There are no proper roadmaps, no copy-paste code and lots of theory. You'll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev.
 
 You need to be able to understand how hardware works, read and write assembly code to boot up your kernel and fairly good C/C++ code to add other features. It will require time, patience and careful code designs filled with abstractions.
 
@@ -32,7 +32,7 @@ Also, have a plan as in what exactly do you want your system to do? You cannot p
 
 In the Kingdom of Hardware, the national language is machine code comprising of 0's/1's, on's/off's etc. But since it was useless on its own, it was merged with the Kingdom of Software where everyone spoke various low to high-level languages. This led to mass confusion as the Hardware residents couldn't understand Software residents and vice-versa. To solve this problem, a translator called Operating System was called.
 
-An Operating System is a framework that tells your computer how to use its hardware. Specifically, it hides hardware complexity, manages memory and other system resources, schedules and multiplexes processes and threads, provides a basic user interface and application programmer interface, also focussing on isolation and protection. Not every Operating System in the market provides all these functionalities. Therefore you have to be clear with your goals.
+An Operating System is a framework that tells your computer how to use its hardware. Specifically, it hides hardware complexity, manages memory and other system resources, schedules and multiplexes processes and threads, provides a basic user interface and application programming interface, also focussing on isolation and protection. Not every Operating System in the market provides all these functionalities. Therefore you have to be clear with your goals.
 
 Some popular examples include [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows) which has a huge user base, [Linux](https://en.wikipedia.org/wiki/Linux) which is lightweight because of small, specific components ([distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)) making it highly customizable but less user-friendly and the [BSD triplets](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) for server related tasks.
 

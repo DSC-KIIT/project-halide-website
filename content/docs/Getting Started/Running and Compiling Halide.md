@@ -79,6 +79,8 @@ If you're curious then the source code for halide is available at https://github
 
 ## Compiling HalideOS from Source
 
+This section will help you with setting up your development environment so that you can compile the code for HalideOS yourself and run it in an emulator. This is a good place to start if you are intersted in contributing code to the project.
+
 ### Dependencies
 
 It is recommended that you used a Linux based operating system for building HalideOS. The C/C++ development

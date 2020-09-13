@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsc-kiit.github.io/project-halide/docs/Getting-Started/Introduction/</guid>
-      <description>Introduction to Operating Systems Development #  Please proceed with a really good grasp of C/C++ If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, Operating System Developement. There are no proper roadmaps, no copy-paste code and lots of theory. You&amp;rsquo;ll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev.</description>
+      <description>Introduction to Operating Systems Development #  Please proceed with a really good grasp of C/C++ If you landed here then, congratulations! You are about to take on one of the most challenging projects in Software Engineering, that is, developing an Operating System. There are no proper roadmaps, no copy-paste code and lots of theory. You&amp;rsquo;ll be guided solely by passion and you will truly peak once you dive into the depths of OS Dev.</description>
     </item>
     
     <item>
@@ -44,10 +44,7 @@ Web #    Wiki OS Dev - Provides information and a community  Wiki Low level Comm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsc-kiit.github.io/project-halide/docs/Getting-Started/Running-and-Compiling-Halide/</guid>
-      <description>Running and Compiling HalideOS on your System #  Running HalideOS in Oracle Virtual Box #  The first step would be to head over to the Releases section of the github repository and download the halide.iso file
- The open up the Oracle VM Virtual Box program. Click on New
- Put in the name as HalideOS. Set Type to Other and Version to Other/Unknown
- Set the memory size.</description>
+      <description>Running and Compiling HalideOS on your System #  Running HalideOS in Oracle Virtual Box #   Head over to the Releases section of the GitHub repository and download the halide.iso file.   Open up Oracle VM VirtualBox. Click on New.   Put HalideOS as the name. Set Type to Other and Version to Other/Unknown.   Set the memory size. 64 MB will be enough.   Click on Next and select Do not add a virtual disk and click on Create.</description>
     </item>
     
   </channel>
