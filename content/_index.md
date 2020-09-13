@@ -58,6 +58,6 @@ Twitter or Instagram.
 
 ## About the Creators
 
-This project was developed by [**Ujjwal Singh Shekhawat**](https://twitter.com/UjjwalSinghShe2) and [**Junaid Rahim**](https://twitter.com/junaidrahim31). Both of them are second-year students in the CSE Branch and members of the OS Team here at DSC KIIT.
+This project was developed by [**Ujjwal Singh Shekhawat**](https://twitter.com/UjjwalSinghShe2) and [**Junaid Rahim**](https://twitter.com/junaidrahim31). Both of them are second-year students in the CSE branch and members of the OS Team here at DSC KIIT.
 
 Special thanks to [Priyansi](https://twitter.com/iiverveii) from the Content Team for helping out with this site and the documentation.
